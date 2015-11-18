@@ -47,7 +47,7 @@ public class Cercle extends ObjetGraphique {
     }
 
     public Cercle(int x, int y, int rayon) {
-        pointCer.setLocation(x,y);
+
         this.rayonCer = rayon;
     }
 

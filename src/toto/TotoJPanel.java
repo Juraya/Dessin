@@ -2,6 +2,7 @@ package toto;
 
 import dessin.*;
 import dessin.Rectangle;
+import dessin.ObjetGraphique;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -35,9 +36,5 @@ public class TotoJPanel extends javax.swing.JPanel {
         for ( ObjetGraphique objetActuel : listeObjets ) {
             objetActuel.dessineToi(g);
         }
-    }
-
-    public static void main(String[] args) {
-
     }
 }
