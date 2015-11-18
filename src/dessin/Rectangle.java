@@ -16,7 +16,7 @@ public class Rectangle extends ObjetGraphique {
 
     @Override
     public void dessineToi(Graphics graphics) {
-
+        graphics.drawRect(getLargeurRect(), getHauteurRect(), pointRect.x, pointRect.y);
     }
 
     @Override

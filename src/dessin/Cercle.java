@@ -9,6 +9,7 @@ public class Cercle extends ObjetGraphique {
 
     private int rayonCer;
     private Point pointCer;
+    private Color couleurCer;
 
     @Override
     public void dessineToi(Graphics graphics) {
@@ -23,5 +24,11 @@ public class Cercle extends ObjetGraphique {
     public Cercle(Point centre,int rayon) {
         rayonCer = rayon;
         pointCer = centre;
+    }
+
+    public Cercle(Point centre, int rayon, Color couleur) {
+        pointCer = centre;
+        rayonCer = rayon;
+        couleurCer = couleur;
     }
 }
