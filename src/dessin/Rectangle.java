@@ -12,22 +12,6 @@ public class Rectangle extends ObjetGraphique {
      * Objet de type Java Rectangle passé en attribut
      */
     private java.awt.Rectangle rectangle;
-    /**
-     * Hauteur du rectangle
-     */
-    private int hauteurRect;
-    /**
-     * Largeur du rectangle
-     */
-    private int largeurRect;
-    /**
-     * Couleur du rectangle
-     */
-    private Color couleur;
-    /**
-     * Point de départ du rectangle
-     */
-    private Point pointRect;
 
     /**
      * Méthode de dessin du rectangle, prenant en paramètre une largeur, une hauteur, et un point de départ.
@@ -35,7 +19,7 @@ public class Rectangle extends ObjetGraphique {
      */
     @Override
     public void dessineToi(Graphics graphics) {
-        graphics.drawRect(pointRect.x, pointRect.y, this.getLargeurRect(), this.getHauteurRect());
+        graphics.drawRect((int) rectangle.getX(), (int) rectangle.getY(), (int) rectangle.getWidth(), (int) rectangle.getHeight());
     }
 
     /**
@@ -57,8 +41,7 @@ public class Rectangle extends ObjetGraphique {
      * @param hauteur
      */
     public Rectangle(int x, int y, int largeur, int hauteur) {
-        hauteurRect = hauteur;
-        largeurRect = largeur;
+        this.rectangle = new java.awt.Rectangle(x, y, largeur, hauteur);
     }
 
     /**
@@ -68,9 +51,7 @@ public class Rectangle extends ObjetGraphique {
      * @param hauteur
      */
     public Rectangle(Point p, int largeur, int hauteur) {
-        pointRect = p;
-        largeurRect = largeur;
-        hauteurRect = hauteur;
+        this.rectangle = new java.awt.Rectangle((int) p.getX(), (int) p.getY(), largeur, hauteur);
     }
 
     /**
@@ -81,10 +62,8 @@ public class Rectangle extends ObjetGraphique {
      * @param c
      */
     public Rectangle(Point p, int largeur, int hauteur, Color c) {
-        largeurRect = largeur;
-        hauteurRect = hauteur;
+        this.rectangle = new java.awt.Rectangle((int) p.getX(), (int) p.getY(), largeur, hauteur);
         couleur = c;
-        pointRect = p;
     }
 
     public java.awt.Rectangle getRectangle() {
@@ -95,37 +74,13 @@ public class Rectangle extends ObjetGraphique {
         this.rectangle = rectangle;
     }
 
-    public int getHauteurRect() {
-        return hauteurRect;
-    }
-
-    public void setHauteurRect(int hauteurRect) {
-        this.hauteurRect = hauteurRect;
-    }
-
-    public int getLargeurRect() {
-        return largeurRect;
-    }
-
-    public void setLargeurRect(int largeurRect) {
-        this.largeurRect = largeurRect;
-    }
-
     @Override
     public Color getCouleur() {
-        return couleur;
+        return this.couleur;
     }
 
     @Override
     public void setCouleur(Color couleur) {
         this.couleur = couleur;
-    }
-
-    public Point getPointRect() {
-        return pointRect;
-    }
-
-    public void setPointRect(Point pointRect) {
-        this.pointRect = pointRect;
     }
 }

@@ -6,7 +6,7 @@ import java.awt.Color;
  * Created by Julien on 04/11/2015.
  */
 public abstract class ObjetGraphique {
-    private Color couleur;
+    protected Color couleur;
 
     public Color getCouleur() {
         return couleur;
