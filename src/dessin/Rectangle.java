@@ -46,7 +46,7 @@ public class Rectangle extends ObjetGraphique {
      */
     @Override
     public boolean contient(int entier1, int entier2) {
-        return false;
+        return rectangle.contains(entier1, entier2);
     }
 
     /**
