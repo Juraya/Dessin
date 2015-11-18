@@ -22,7 +22,7 @@ public class Cercle extends ObjetGraphique {
      */
     @Override
     public void dessineToi(Graphics graphics) {
-        graphics.drawOval(pointCer.x, pointCer.y, rayonCer, rayonCer);
+        graphics.drawOval( (pointCer.x-rayonCer), (pointCer.y-rayonCer), (rayonCer*2), (rayonCer*2) );
     }
 
     /**
@@ -47,7 +47,7 @@ public class Cercle extends ObjetGraphique {
     }
 
     public Cercle(int x, int y, int rayon) {
-
+        pointCer = new Point(x,y);
         this.rayonCer = rayon;
     }
 

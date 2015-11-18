@@ -19,7 +19,7 @@ public class Rectangle extends ObjetGraphique {
      */
     @Override
     public void dessineToi(Graphics graphics) {
-        graphics.drawRect((int) rectangle.getX(), (int) rectangle.getY(), (int) rectangle.getWidth(), (int) rectangle.getHeight());
+        graphics.drawRect(rectangle.x, rectangle.y, rectangle.width, rectangle.height);
     }
 
     /**
