@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e683e9de-de0b-4a6d-954c-e85f7e1f8168" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dessin/Rectangle.java" afterPath="$PROJECT_DIR$/src/dessin/Rectangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dessin/Cercle.java" afterPath="$PROJECT_DIR$/src/dessin/Cercle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dessin.iws" />
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dessin/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4561797">
+            <state vertical-scroll-proportion="0.0">
               <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
               <folding>
                 <element signature="e#1062#1063#0" expanded="true" />
@@ -74,16 +74,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cercle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cercle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dessin/Cercle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.40898877">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#551#552#0" expanded="true" />
                 <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,8 +108,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/dessin/ObjetGraphique.java" />
-        <option value="$PROJECT_DIR$/src/dessin/Cercle.java" />
         <option value="$PROJECT_DIR$/src/dessin/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/dessin/Cercle.java" />
       </list>
     </option>
   </component>
@@ -467,7 +465,7 @@
       <updated>1446635500766</updated>
       <workItem from="1446635506249" duration="2992000" />
       <workItem from="1446731256848" duration="2078000" />
-      <workItem from="1447840342658" duration="3520000" />
+      <workItem from="1447840342658" duration="3912000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout Rectangle">
       <created>1446639773913</created>
@@ -529,11 +527,17 @@
       <option name="project" value="LOCAL" />
       <updated>1447843549677</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Contains rectangle">
+      <created>1447843879307</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1447843879307</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8590000" />
+    <option name="totallyTimeSpent" value="8982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -585,7 +589,8 @@
     <MESSAGE value="Dessine toi cercle" />
     <MESSAGE value="Javadoc cercle" />
     <MESSAGE value="Javadoc rectangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javadoc rectangle" />
+    <MESSAGE value="Contains rectangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contains rectangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -647,8 +652,6 @@
           <folding>
             <element signature="e#551#552#0" expanded="true" />
             <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -697,19 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dessin/Cercle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dessin/ObjetGraphique.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -725,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dessin/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4561797">
+        <state vertical-scroll-proportion="0.0">
           <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
           <folding>
             <element signature="e#1062#1063#0" expanded="true" />
@@ -750,6 +740,17 @@
             <element signature="e#2865#2866#0" expanded="true" />
             <element signature="e#2914#2915#0" expanded="true" />
             <element signature="e#2956#2957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dessin/Cercle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40898877">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
           </folding>
         </state>
       </provider>

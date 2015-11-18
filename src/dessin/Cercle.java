@@ -37,7 +37,7 @@ public class Cercle extends ObjetGraphique {
      */
     @Override
     public boolean contient(int entier1, int entier2) {
-        return false;
+        return (Math.pow((entier1 - pointCer.x), 2) + Math.pow((entier2 - pointCer.y), 2)) <= Math.pow(rayonCer, 2);
     }
 
     /**
