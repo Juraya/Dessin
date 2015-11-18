@@ -13,7 +13,7 @@ public class Cercle extends ObjetGraphique {
 
     @Override
     public void dessineToi(Graphics graphics) {
-
+        graphics.drawOval(pointCer.x, pointCer.y, rayonCer, rayonCer);
     }
 
     @Override
