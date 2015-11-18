@@ -6,7 +6,7 @@ import java.awt.Color;
  * Created by Julien on 04/11/2015.
  */
 public abstract class ObjetGraphique {
-    protected Color couleur;
+    protected java.awt.Color couleur;
 
     public Color getCouleur() {
         return couleur;
@@ -21,7 +21,7 @@ public abstract class ObjetGraphique {
     }
 
     public ObjetGraphique() {
-        this.couleur = Color.black;
+        this.couleur = Color.BLACK;
     }
 
     public abstract void dessineToi(java.awt.Graphics graphics);
