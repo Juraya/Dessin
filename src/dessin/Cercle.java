@@ -46,6 +46,11 @@ public class Cercle extends ObjetGraphique {
         pointCer = centre;
     }
 
+    public Cercle(int x, int y, int rayon) {
+        pointCer.setLocation(x,y);
+        this.rayonCer = rayon;
+    }
+
     /**
      * Constructeur du cercle en permettant de mettre une couleur.
      * @param centre
