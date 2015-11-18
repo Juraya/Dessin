@@ -15,10 +15,6 @@ public class Cercle extends ObjetGraphique {
      * Point de départ du cercle
      */
     private Point pointCer;
-    /**
-     * Couleur du cercle
-     */
-    private Color couleurCer;
 
     /**
      * Méthode qui permet de dessiner le cercle, en passant en paramètre des coordonnées de début et un rayon.
@@ -59,6 +55,6 @@ public class Cercle extends ObjetGraphique {
     public Cercle(Point centre, int rayon, Color couleur) {
         pointCer = centre;
         rayonCer = rayon;
-        couleurCer = couleur;
+        this.couleur = couleur;
     }
 }
