@@ -13,7 +13,7 @@ public class TotoJPanel extends javax.swing.JPanel {
     /**
      * Attribut de la classe TotoJPanel : tableau d'objets graphiques.
      */
-    private ArrayList<ObjetGraphique> listeObjets = new ArrayList<>();
+    public ArrayList<ObjetGraphique> listeObjets = new ArrayList<>();
 
     /**
      * Constructeur de la classe TotoJPanel, sans paramètres d'entrée. Construit une liste d'objets.
