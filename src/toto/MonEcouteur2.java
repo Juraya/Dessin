@@ -9,6 +9,6 @@ import java.awt.event.ActionListener;
 public class MonEcouteur2 implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
-
+        System.err.println("Bouton 2 enclenche !");
     }
 }
