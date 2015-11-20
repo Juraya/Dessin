@@ -18,7 +18,7 @@ public class Cercle extends ObjetGraphique {
 
     /**
      * Méthode qui permet de dessiner le cercle, en passant en paramètre des coordonnées de début et un rayon.
-     * @param graphics
+     * @param graphics Variable de type Graphics
      */
     @Override
     public void dessineToi(Graphics graphics) {
@@ -27,9 +27,9 @@ public class Cercle extends ObjetGraphique {
 
     /**
      * Méthode qui permet de savoir si le point est contenu dans la zone.
-     * @param entier1
-     * @param entier2
-     * @return
+     * @param entier1 Abcisse du point à vérifier
+     * @param entier2 Ordonnée du point à vérifier
+     * @return Retourne un booléen.
      */
     @Override
     public boolean contient(int entier1, int entier2) {
@@ -38,8 +38,8 @@ public class Cercle extends ObjetGraphique {
 
     /**
      * Constructeur sans la couleur.
-     * @param centre
-     * @param rayon
+     * @param centre Point central du cercle
+     * @param rayon Longueur du rayon du cercle
      */
     public Cercle(Point centre,int rayon) {
         rayonCer = rayon;
@@ -53,9 +53,9 @@ public class Cercle extends ObjetGraphique {
 
     /**
      * Constructeur du cercle en permettant de mettre une couleur.
-     * @param centre
-     * @param rayon
-     * @param couleur
+     * @param centre Point central du cercle
+     * @param rayon Longueur du rayon du cercle
+     * @param couleur Couleur du cercle
      */
     public Cercle(Point centre, int rayon, Color couleur) {
         pointCer = centre;

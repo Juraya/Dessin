@@ -10,8 +10,14 @@ import java.util.ArrayList;
  * Created by Julien on 18/11/2015.
  */
 public class TotoJPanel extends javax.swing.JPanel {
+    /**
+     * Attribut de la classe TotoJPanel : tableau d'objets graphiques.
+     */
     private ArrayList<ObjetGraphique> listeObjets = new ArrayList<>();
 
+    /**
+     * Constructeur de la classe TotoJPanel, sans paramètres d'entrée. Construit une liste d'objets.
+     */
     public TotoJPanel() {
         System.err.println("Entree des objets dans la liste !");
         listeObjets.add(new Cercle(200,200,100));
@@ -30,6 +36,10 @@ public class TotoJPanel extends javax.swing.JPanel {
         this.listeObjets = listeObjets;
     }
 
+    /**
+     * Méthode qui appelle les méthodes de dessin de chaque objet dans le tableau d'objets graphiques.
+     * @param g Variable de type Graphics
+     */
     public void paintComponent(Graphics g) {
         System.err.println("Je vais rentrer dans la boucle de dessin !");
         for ( ObjetGraphique objetActuel : listeObjets ) {

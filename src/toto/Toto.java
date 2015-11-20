@@ -10,9 +10,9 @@ public class Toto extends javax.swing.JFrame {
 
     /**
      * Création de la JFrame, avec en paramètre une largeur, une hauteur, et un titre pour la fenetre.
-     * @param largeur
-     * @param hauteur
-     * @param title
+     * @param largeur Largeur de la frame
+     * @param hauteur Hauteur de la frame
+     * @param title Titre de la frame
      */
     public Toto(int largeur, int hauteur, String title) {
         super(title);
@@ -22,7 +22,7 @@ public class Toto extends javax.swing.JFrame {
 
     /**
      * Méthode principale, avec création du JPanel, création du JFrame, position au centre, visibilité, et lien entre Frame et Panel.
-     * @param args
+     * @param args Méthode principale
      */
     public static void main(String[] args) {
         TotoJPanel testJP = new TotoJPanel();
