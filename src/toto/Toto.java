@@ -26,7 +26,20 @@ public class Toto extends javax.swing.JFrame {
      */
     public static void main(String[] args) {
         TotoJPanel testJP = new TotoJPanel();
-        JFrame testJF = new Toto(400, 400, "Fenetre Java");
+
+        JButton bouton1 = new JButton("Dessin 1 On/Off");
+        testJP.add(bouton1);
+
+        JButton bouton2 = new JButton("Dessin 2 On/Off");
+        testJP.add(bouton2);
+
+        JButton bouton3 = new JButton("Dessin 3 On/Off");
+        testJP.add(bouton3);
+
+        JButton bouton4 = new JButton("Dessin 4 On/Off");
+        testJP.add(bouton4);
+
+        JFrame testJF = new Toto(600, 600, "Fenetre Java");
         testJF.setLocationRelativeTo(null);
         testJF.setVisible(true);
         testJF.add(testJP);
